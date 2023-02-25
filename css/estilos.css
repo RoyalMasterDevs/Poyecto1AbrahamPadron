@@ -1,0 +1,220 @@
+      *{
+      
+        margin:0;
+        padding: 0;
+
+       }
+
+       h1,h2,h3{
+           margin:0;
+        padding:0;
+       }
+        .conteiner{
+           width:1000px;
+           margin:0 auto;
+           
+       }
+       body{
+        padding:0;
+        margin:0;
+
+       }
+
+       img.foto{
+        width:70px;
+        display: inline-block;
+
+        }
+                
+       ul{
+
+            list-style: none;
+            position:absolute;
+            top:30px;
+            right:200px;
+            display: inline-block;
+        }
+        
+        ul li{
+            display:inline;
+            margin: 0 20px;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: #6CA90D;
+            
+        }
+        .info{
+            background-color: #7aa300;
+            padding-bottom:2px;
+            padding-top:2px;
+            line-height:1;
+                     
+        }
+        .info h1, .info p{
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .tres{
+            width: 30%;
+           display: inline-block;
+           vertical-align: middle;
+        }
+
+        .imagen-central img{
+            width: 300px;
+        }
+
+        .check{
+            background: url(img/check.png) no-repeat;
+
+        }
+        .check p {
+            padding-left: 30px;
+            line-height: 30px;
+
+        }
+        section.especialistas{
+            background: #dcdcdc;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .formulario{
+            background:#202020;
+            padding:15px;
+            width: 25%;
+            margin-left: 4em;
+
+        }
+        .formulario h3{
+            color: #ffffff ;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            padding-left: 40px;
+        }
+        form input, 
+        form textarea  {
+            display: block;
+            border-radius: 5px;
+            margin: 5px auto;
+            width: 70%;
+            height: 25px;
+        }
+       
+        form textarea{
+                height: 40px;
+               }
+               
+         input[type="submit"]{
+            width: 50%;
+            background: #fb7104;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-weight: bold;
+            border:none;
+               }
+        
+            section.especialistas h2{
+                    color: #447c11;
+                    font-size: 32px;
+                    font-weight: 700;
+            }
+
+            .Cell{
+                display:table-cell;
+              
+            }
+            
+            section.Caracteriticas h5{
+                padding: 1em;
+                font-size: 15px;
+            
+            }
+
+            section.Caracteriticas p{
+                padding: 1em;
+                text-align: justify;
+                line-height: 25px;
+
+            }
+            section.Caracteriticas img{
+            width:64px;
+            height:54px;
+            vertical-align: middle;
+       }
+       section.kits{
+           background: #7aa300;
+           padding-bottom: 1em;
+       
+       }
+        section.kits h2{
+            color: #FFFFFF;
+            text-align: center;
+            padding: 1em 0;
+            font-size: 32px;
+            font-weight: bold;
+            font-weight: 700;
+        }
+        .uno-cuatro{
+            width: 24%;
+            display: inline-block;
+        }
+
+        section.testimoniales .conteiner h4{
+            text-align: center;
+            font-size: 32px;
+            color: #7aa300;
+            padding: 1em 0;
+            margin-top: 2px;
+            margin-bottom: 2px;
+          }
+           
+        section.testimoniales p{
+            padding: 1em;
+                text-align: justify;
+                line-height: 20px;
+               
+        }
+     
+        section.testimoniales .contenedor .cell{
+                background-image: url(img/comillas.svg);
+                background-repeat: no-repeat;
+                padding-left: 50px;
+        }
+
+
+        section.testimoniales .contenedor{
+                margin-bottom: 2px;
+        }
+
+        /*section.testimoniales img {
+                width: 64px;
+                height: 54px;
+                vertical-align: middle;}*/
+
+        section.mapa .columna{
+            display: table-cell;
+            vertical-align: middle;
+            
+
+        }       
+        
+        section.mapa {
+            margin-top: 2em;
+            margin-bottom: 5em;
+        }
+
+            footer{
+                background: #7aa300;
+              }
+              footer p{
+                padding: 15px 0;
+              }
+
+              footer p{
+                text-align: center;
+              }
